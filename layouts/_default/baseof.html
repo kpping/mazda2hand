@@ -140,6 +140,14 @@
       gtag("config", "G-CJRLMGTSPC");
     </script>
 
+    <!-- prettier-ignore -->
+    <!-- cookie consent -->
+    {{ $cookieConsent := resources.Get "js/cookie-consent.js" | js.Build (dict "minify" true)}}
+    <script
+      async
+      src="{{ $cookieConsent.RelPermalink }}"
+      integrity="{{ $cookieConsent.Data.Integrity }}"
+    ></script>
   </head>
 
   <body>
@@ -149,5 +157,7 @@
       <hr class="thin-line" />
       {{ partial "base-footer" . }}
     </div>
+
+    {{ partial "cookie-consent" . }}
   </body>
 </html>
