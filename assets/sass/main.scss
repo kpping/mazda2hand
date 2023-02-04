@@ -1,0 +1,147 @@
+@import "./mixin.scss";
+
+body {
+  background-color: $outer-background-color;
+}
+
+//
+// layouts/_default/baseof.html
+//
+#base-container {
+  background-color: $base-background-color;
+  padding: 0.5em 1em;
+
+  @include respond-to("md") {
+    max-width: $screen-md;
+    margin: 1em auto;
+    padding: 1em 2em;
+    @include card(2);
+    @include curve(3);
+  }
+}
+
+//
+// layouts/partials/base-header.html
+//
+#base-header {
+  a {
+    position: relative;
+  }
+
+  img {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+
+  span {
+    position: relative;
+    top: 2px;
+  }
+
+  #base-header-desc {
+    font-style: italic;
+    color: $base-header-desc-color;
+  }
+}
+
+#netlify-status {
+  position: relative;
+  top: 5px;
+}
+
+//
+// layouts/partials/pagination.html
+//
+#pagination {
+  text-align: right;
+}
+
+// remove bluering on safari
+.post-meta-summary:focus {
+  outline: none;
+}
+
+.post-meta-content {
+  background-color: $post-meta-content-background-color;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  @include curve(3);
+}
+
+//
+// layouts/partials/data-input-json/json-figure-picture.html
+//
+.json-figure-picture {
+  text-align: center;
+
+  img {
+    height: auto;
+    width: 100%;
+    @include curve(3);
+
+    @include respond-to("sm") {
+      width: 66%;
+    }
+
+    @include respond-to("md") {
+      width: 50%;
+    }
+  }
+
+  figcaption {
+    color: $figcaption-color;
+  }
+}
+
+//
+// layouts/partials/related-content.html
+//
+#related-content {
+  p {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  li {
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+  }
+}
+
+//
+// layouts/partials/facebook-mazda2hand.html
+//
+#facebook-mazda2hand {
+  position: relative;
+
+  img {
+    position: relative;
+    top: 6px;
+  }
+}
+
+//
+// layouts/_default/baseof.html
+//
+// mod github markdown css
+#base-container.markdown-body {
+  color: $markdown-body-font-color;
+
+  h1,
+  h2 {
+    font-weight: normal;
+  }
+
+  .text-align-center {
+    text-align: center;
+  }
+
+  .border-bottom-0 {
+    border-bottom: 0;
+  }
+
+  hr.thin-line {
+    height: 1px;
+    color: $markdown-body-border-color;
+  }
+}

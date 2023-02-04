@@ -1,0 +1,23 @@
+# https://gohugo.io/variables/site/
+
+baseURL = "https://www.mazda2hand.com"
+copyright = "mazda2hand"
+enableRobotsTXT = true
+relativeURLs = true
+title = "Mazda2Hand"
+languageCode = "th"
+
+[params]
+  author = "mazda2hand"
+  description = "มาสด้าทูแฮนด์ – รถมาสด้า มือหนึ่ง มือสอง CPO อะไหล่ คุณภาพดี"
+  homepageKeywords = ["mazda", "part", "new", "second hand", "used", "cpo", "มาสด้า"]
+  logo = "/apple-icon-114x114.png"
+
+[related]
+  includeNewer = true
+[[related.indices]]
+  name = 'tags'
+  weight = 100
+[[related.indices]]
+  name = 'categories'
+  weight = 90

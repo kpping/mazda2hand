@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <main id="inner-content">
+    <article>
+      <h1>{{ .Title }}</h1>
+      {{ partial "post-meta.html" . }}
+      {{ .Content }}
+      <!-- disable until having more contents -->
+      <!-- <hr class="thin-line" /> -->
+    </article>
+    <!-- disable until having more contents -->
+    <!-- <footer id="post-footer">
+      {{ partial "related-content" . }}
+    </footer> -->
+  </main>
+{{ end }}

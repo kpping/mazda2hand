@@ -1,0 +1,20 @@
+<details>
+  <summary class="post-meta-summary">
+    <time>{{ .Date.Format "2006-01-02 15:04" }}</time>
+  </summary>
+  <p class="post-meta-content">
+    🏷️
+    {{ with .Params.categories }}
+      {{ range . }}
+        <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+      {{ end }}
+    {{ end }}
+
+    {{ with .Params.tags }}
+      &nbsp;
+      {{ range . }}
+        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+      {{ end }}
+    {{ end }}
+  </p>
+</details>

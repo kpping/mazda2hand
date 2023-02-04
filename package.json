@@ -1,0 +1,26 @@
+{
+  "name": "mazda2hand",
+  "version": "0.0.1",
+  "description": "qualified mazda enthusiast",
+  "scripts": {
+    "test": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "www.mazda2hand.com",
+    "mazda",
+    "part",
+    "new",
+    "second hand",
+    "used",
+    "cpo",
+    "mazda2hand"
+  ],
+  "author": "mazda2hand",
+  "license": "mazda2hand",
+  "homepage": "https://github.com/kpping/mazda2hand#readme",
+  "devDependencies": {
+    "prettier": "2.4.1",
+    "prettier-plugin-go-template": "0.0.11"
+  }
+}
