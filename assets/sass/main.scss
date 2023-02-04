@@ -145,3 +145,29 @@ body {
     color: $markdown-body-border-color;
   }
 }
+
+//
+// layouts/partials/cookie-consent.html
+//
+#cookie-consent {
+  max-width: 50%;
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  color: $markdown-body-font-color;
+  line-height: 1.7em;
+  font-style: italic;
+  background-color: white;
+  padding: 1em;
+  display: none;
+
+  @include curve(2);
+  @include card(2);
+
+  #accept-cookie {
+    font-style: italic;
+    color: green;
+    font-size: 0.9em;
+    width: 100%;
+  }
+}
