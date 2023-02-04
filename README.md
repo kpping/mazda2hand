@@ -6,11 +6,12 @@
 
 ## Version
 
-0.0.2
+0.0.3
 
 ## Change logs
 
-| Version | Detail                 |
-| ------- | ---------------------- |
-| 0.0.2   | correct netlify status |
-| 0.0.1   | init project           |
+| Version | Detail                          |
+| ------- | ------------------------------- |
+| 0.0.3   | add cookie and google analytics |
+| 0.0.2   | correct netlify status          |
+| 0.0.1   | init project                    |
