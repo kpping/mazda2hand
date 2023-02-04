@@ -6,12 +6,13 @@
 
 ## Version
 
-0.0.3
+0.0.4
 
 ## Change logs
 
-| Version | Detail                          |
-| ------- | ------------------------------- |
-| 0.0.3   | add cookie and google analytics |
-| 0.0.2   | correct netlify status          |
-| 0.0.1   | init project                    |
+| Version | Detail                                       |
+| ------- | -------------------------------------------- |
+| 0.0.4   | change from – (long dash) to - (normal dash) |
+| 0.0.3   | add cookie and google analytics              |
+| 0.0.2   | correct netlify status                       |
+| 0.0.1   | init project                                 |
