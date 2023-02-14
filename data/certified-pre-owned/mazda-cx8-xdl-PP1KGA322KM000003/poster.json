@@ -1,0 +1,25 @@
+{
+  "data_type": "json-figure-picture",
+  "href": "https://mazda2hand.files.wordpress.com/2023/02/mazda-cx8-xdl-pp1kga322km000003_q85_r768x.jpg",
+  "src": "https://mazda2hand.files.wordpress.com/2023/02/mazda-cx8-xdl-pp1kga322km000003_q85_r400x.jpg",
+  "alt": "used mazda cx-8 xdl white-colored model year 2019",
+  "caption": "มาสด้า CX-8 XDL ปี 2019 ไมล์ 40k",
+  "height": "400",
+  "width": "400",
+  "loading": "lazy",
+  "source": [
+    {
+      "srcset": "https://mazda2hand.files.wordpress.com/2023/02/mazda-cx8-xdl-pp1kga322km000003_q85_r768x.jpg 2x, https://mazda2hand.files.wordpress.com/2023/02/mazda-cx8-xdl-pp1kga322km000003_q85_r400x.jpg",
+      "media": "(min-width: 400px)"
+    },
+    {
+      "srcset": "https://mazda2hand.files.wordpress.com/2023/02/mazda-cx8-xdl-pp1kga322km000003_q85_r400x.jpg 2x, https://mazda2hand.files.wordpress.com/2023/02/mazda-cx8-xdl-pp1kga322km000003_q85_r200x.jpg 1x",
+      "media": "(min-width: 200px)"
+    },
+    {
+      "srcset": "https://mazda2hand.files.wordpress.com/2023/02/mazda-cx8-xdl-pp1kga322km000003_q85_r200x.jpg 2x, https://mazda2hand.files.wordpress.com/2023/02/mazda-cx8-xdl-pp1kga322km000003_q85_r100x.jpg 1x",
+      "media": "(min-width: 100px)"
+    }
+  ],
+  "_raw": "https://mazda2hand.files.wordpress.com/2023/02/mazda-cx8-xdl-pp1kga322km000003.jpg"
+}
