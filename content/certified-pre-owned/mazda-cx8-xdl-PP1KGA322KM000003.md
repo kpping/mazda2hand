@@ -1,7 +1,7 @@
 ---
 title: "Mazda CX-8 XDL ปี 2019 สีขาว ไมล์ 40k ราคา 1,448,000 บาท"
 date: 2023-02-14T10:41:04+07:00
-draft: true
+draft: false
 categories: [cpo]
 tags: [mazda, cpo, used, cx8, xdl]
 images:
