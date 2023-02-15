@@ -1,6 +1,6 @@
 {
   "name": "mazda2hand",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "qualified mazda enthusiast",
   "scripts": {
     "test": "prettier --check .",

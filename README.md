@@ -6,12 +6,13 @@
 
 ## Version
 
-0.0.4
+0.0.5
 
 ## Change logs
 
 | Version | Detail                                       |
 | ------- | -------------------------------------------- |
+| 0.0.5   | change logo                                  |
 | 0.0.4   | change from – (long dash) to - (normal dash) |
 | 0.0.3   | add cookie and google analytics              |
 | 0.0.2   | correct netlify status                       |
