@@ -31,6 +31,8 @@ body {
   img {
     vertical-align: middle;
     margin-right: 5px;
+    background-color: #333333;
+    @include curve(2);
   }
 
   span {
