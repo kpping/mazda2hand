@@ -3,7 +3,7 @@ title: "Mazda CX-8 XDL ปี 2019 สีขาว ไมล์ 40k ราคา
 date: 2023-02-14T10:41:04+07:00
 draft: false
 categories: [cpo]
-tags: [mazda, cpo, used, cx8, xdl]
+tags: [mazda, cpo, used, cx8, xdl, มาสด้า, มือสอง]
 images:
   [
     "https://mazda2hand.files.wordpress.com/2023/02/mazda-cx8-xdl-pp1kga322km000003.jpg",
